@@ -46,5 +46,7 @@ public class Test {
         boolean sign = ecode.charAt(0) >= 'a' && ecode.charAt(0) <= 'z';
         System.out.println(sign);
 
+        System.out.println("11111111");
+
     }
 }
