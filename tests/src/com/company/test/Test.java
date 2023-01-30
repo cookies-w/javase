@@ -49,6 +49,8 @@ public class Test {
         System.out.println("master test");
 
         System.out.println("11111111");
+        System.out.println("push test");
+
 
     }
 }
