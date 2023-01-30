@@ -36,11 +36,11 @@ public class Test {
             e.printStackTrace();
         }
 
-//        String s = "double(5,2)";
-//        String[] split = s.split("[()]+");
-//        for (String s1 : split) {
-//            System.out.println(s1);
-//        }
+        String s = "double(5,2)";
+        String[] split = s.split("[()]+");
+        for (String s1 : split) {
+            System.out.println(s1);
+        }
 
         String ecode = "MbsdCore-21423432";
         boolean sign = ecode.charAt(0) >= 'a' && ecode.charAt(0) <= 'z';
