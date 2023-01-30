@@ -6,10 +6,10 @@ import java.util.Date;
 
 public class Test {
     public static void main(String[] args) {
-//        String time1 = "202209011055".substring(0,8);
-//        String time2 = "202208250840".substring(0,8);
-//        int time = Integer.parseInt(time1) - Integer.parseInt(time2);
-//        System.out.println(time);
+        String time1 = "202209011055".substring(0,8);
+        String time2 = "202208250840".substring(0,8);
+        int time = Integer.parseInt(time1) - Integer.parseInt(time2);
+        System.out.println(time);
 
         String dateStart = "20220902024332".substring(0,8);
         String dateStop = "20220825164555".substring(0,8);
@@ -42,9 +42,9 @@ public class Test {
             System.out.println(s1);
         }
 
-//        String ecode = "MbsdCore-21423432";
-//        boolean sign = ecode.charAt(0) >= 'a' && ecode.charAt(0) <= 'z';
-//        System.out.println(sign);
+        String ecode = "MbsdCore-21423432";
+        boolean sign = ecode.charAt(0) >= 'a' && ecode.charAt(0) <= 'z';
+        System.out.println(sign);
 
     }
 }
